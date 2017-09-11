@@ -28,6 +28,6 @@ int main(){
     thread threadObj2([]{Work(1);});
     threadObj1.join();
     threadObj2.join();
-    cout<<" Test should find samples to be involved in W-W false sharing\n";
+    cout<<"Test should find samples to be involved in W-W false sharing\n";
     return 0;
 }

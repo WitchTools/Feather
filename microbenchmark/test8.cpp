@@ -50,7 +50,7 @@ int main(){
     3x3=9 pairs of contexts involved in W-W false sharing between the orderd pair A.y:A.x \n \
     2x2=4 pairs of contexts involved in false sharing between the ordered pair B.x:B.y \n \
     2x2=4 pairs of contexts involved in false sharing between the ordered pair B.y:B.x \n \
-    1x1=1 context involved in W-W false sharing between the ordered pair C.x:C.y\n  \
+    1x1=1 context involved in W-W false sharing between the ordered pair C.x:C.y\n \
     1x1=1 context involved in W-W false sharing between the ordered pair C.y:C.x\n";
     return 0;
 }

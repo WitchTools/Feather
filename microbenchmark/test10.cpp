@@ -50,6 +50,6 @@ int main(){
         return 0;
     }
     
-    cout<<" Test should find samples to be involved in inter-process W-W false sharing\n";
+    cout<<"Test should find samples to be involved in inter-process W-W false sharing\n";
     return 0;
 }
