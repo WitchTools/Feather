@@ -4,10 +4,14 @@ A featherlight on-the-fly false-sharing detection tool
 The microbenchmark directory contains test cases that exercise different types of false sharing. 
 
 To build and test:
-	1. Set the false sharing detection tool in the FALSESHARING_HARNESS variable under microbenchmark/Makefile
-	2. cd microbenchmark
-	3. make
-	4. make check
+
+1. Set the false sharing detection tool in the FALSESHARING_HARNESS variable under microbenchmark/Makefile
+
+2. cd microbenchmark
+
+3. make
+
+4. make check
 
 Each test case is self-explanatory. 
 
