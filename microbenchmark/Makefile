@@ -16,4 +16,4 @@ check: $(test_cases)
 	$(foreach exe, $(test_cases), echo $(exe) ; ./$(exe) $(CMDSEP))
 
 clean:
-        rm -f test*.out
+	rm -f test*.out
