@@ -2,7 +2,6 @@
 #include<atomic>
 #include<iostream>
 #include<thread>
-#define _GNU_SOURCE
 #include<pthread.h>
 
 #define N (1L << 28)
